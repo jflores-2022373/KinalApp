@@ -5,6 +5,9 @@ import lombok.*;
 
 import java.time.LocalDate;
 
+// ===================================================================
+// ENTIDAD DE DOMINIO: VENTA (TRANSACCIONES Y CABECERA DE FACTURACIÓN)
+// ===================================================================
 @Entity
 @Table(name = "ventas")
 @Getter
