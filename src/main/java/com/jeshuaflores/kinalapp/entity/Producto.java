@@ -7,6 +7,9 @@ import lombok.*;
 
 import java.time.LocalDate;
 
+// ===================================================================
+// ENTIDAD DE DOMINIO: PRODUCTO (CONTROL DE INVENTARIO Y CATÁLOGO)
+// ===================================================================
 @Entity
 @Table(name = "productos")
 @Getter
