@@ -1,0 +1,206 @@
+body {
+
+    background: linear-gradient(
+            135deg,
+            #eef2f7,
+            #dbe7f5
+    );
+
+    font-family: 'Segoe UI', sans-serif;
+
+    min-height: 100vh;
+
+    margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+
+    background: linear-gradient(
+            90deg,
+            #0d6efd,
+            #212529
+    ) !important;
+
+    padding: 15px 25px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+
+    color: white !important;
+
+    font-weight: bold;
+
+    font-size: 28px;
+
+    letter-spacing: 1px;
+}
+
+.nav-link {
+
+    color: white !important;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+
+    color: #ffc107 !important;
+
+    transform: scale(1.05);
+}
+
+/* CARDS */
+
+.card {
+
+    border-radius: 20px;
+
+    border: none;
+
+    overflow: hidden;
+
+    animation: aparecer 0.5s ease;
+}
+
+.card-header {
+
+    border: none !important;
+}
+
+.card h1,
+.card h2,
+.card h3 {
+
+    font-weight: bold;
+}
+
+.dashboard-card {
+
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* TABLAS */
+
+.table {
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    background: white;
+}
+
+.table thead {
+
+    font-size: 15px;
+}
+
+.table tbody tr {
+
+    transition: 0.2s;
+}
+
+.table tbody tr:hover {
+
+    background: #f1f5ff;
+
+    transform: scale(1.005);
+}
+
+/* BOTONES */
+
+.btn {
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+/* INPUTS */
+
+.form-control,
+.form-select {
+
+    border-radius: 12px;
+
+    padding: 10px;
+
+    border: 1px solid #ced4da;
+
+    transition: 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color: #0d6efd;
+
+    box-shadow: 0 0 10px rgba(13,110,253,0.3);
+}
+
+/* BADGES */
+
+.badge {
+
+    font-size: 14px;
+
+    padding: 8px 12px;
+
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+footer {
+
+    margin-top: 50px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    color: #6c757d;
+
+    font-weight: 500;
+}
+
+/* ANIMACIONES */
+
+@keyframes aparecer {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(20px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
