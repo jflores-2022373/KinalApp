@@ -27,6 +27,7 @@ public class ProductoService {
         return productoRepository.findAll(Sort.by(Sort.Direction.DESC, "id"));
     }
 
+    // Orquestación de operaciones CRUD asegurando la consistencia del catálogo comercial
     // =========================
     // GUARDAR PRODUCTO
     // =========================
