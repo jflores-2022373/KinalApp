@@ -15,6 +15,8 @@ public interface UsuarioRepository
     // =========================
     // BUSCAR USUARIO POR USERNAME
     // =========================
+
+    // Consulta derivada (Query Method) para la validación de credenciales durante el login
     Optional<Usuario> findByUsername(String username);
 
 }
