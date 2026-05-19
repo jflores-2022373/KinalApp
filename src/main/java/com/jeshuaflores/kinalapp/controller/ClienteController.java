@@ -29,7 +29,7 @@ public class ClienteController {
     @GetMapping
     // CONFIGURACIÓN DE RUTAS Y MAPEOS - PATRÓN MVC SPRING
     public String listar(Model model) {
-
+// Retorno del template HTML correspondiente a la bandeja de clientes
         // Se modificó para ordenar por 'id' de forma descendente (los más nuevos primero)
         model.addAttribute(
                 "clientes",
