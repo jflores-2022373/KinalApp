@@ -44,6 +44,8 @@ public class DetalleVentaController {
     // =========================
     // FORMULARIO NUEVO
     // =========================
+
+    // Orquestación del modelo para la carga de ítems en el formulario de la factura
     @GetMapping("/nuevo")
     public String nuevo(Model model) {
 
