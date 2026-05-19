@@ -35,6 +35,7 @@ public class UsuarioService {
         return usuarioRepository.save(usuario);
     }
 
+    // Lógica de encriptación y procesamiento de perfiles de usuarios del sistema
     // =========================
     // BUSCAR USUARIO POR ID
     // =========================
