@@ -5,6 +5,9 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
+// ===================================================================
+// ENTIDAD DE DOMINIO: USUARIO (SISTEMA DE AUTENTICACIÓN Y CREDENCIALES)
+// ===================================================================
 @Entity
 @Table(name = "usuarios")
 @Getter
