@@ -26,6 +26,7 @@ public class ClienteController {
     // LISTAR CLIENTES
     // =========================
     @GetMapping
+    // CONFIGURACIÓN DE RUTAS Y MAPEOS - PATRÓN MVC SPRING
     public String listar(Model model) {
 
         // Se modificó para ordenar por 'id' de forma descendente (los más nuevos primero)
