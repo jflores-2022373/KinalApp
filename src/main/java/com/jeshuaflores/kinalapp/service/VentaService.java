@@ -14,7 +14,7 @@ import java.util.List;
 // ===================================================================
 @Service
 public class VentaService {
-
+    // Bloque transaccional crítico: Procesamiento y almacenamiento de comprobantes de venta
     @Autowired
     private VentaRepository ventaRepository;
 
