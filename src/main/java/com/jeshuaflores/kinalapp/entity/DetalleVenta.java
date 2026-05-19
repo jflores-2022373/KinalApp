@@ -3,6 +3,9 @@ package com.jeshuaflores.kinalapp.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+// ===================================================================
+// ENTIDAD DE DOMINIO: DETALLE VENTA (DESGLOSE DE ARTÍCULOS COMPRADOS)
+// ===================================================================
 @Entity
 @Table(name = "detalle_venta")
 @Getter
