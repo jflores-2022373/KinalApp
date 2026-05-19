@@ -5,6 +5,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
+// ENTIDAD DE DOMINIO: CLIENTE (MAPEADO DE DATOS MAESTROS)
 @Entity
 @Table(name = "clientes")
 @Getter
