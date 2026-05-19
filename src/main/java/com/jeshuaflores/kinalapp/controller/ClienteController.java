@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 // Módulo de control de tráfico para la gestión de clientes en el sistema
 // CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: CLIENTES
 @Controller
+// Definición de endpoints del segmento clientes para el ruteo del navegador
 @RequestMapping("/clientes")
 public class ClienteController {
 
