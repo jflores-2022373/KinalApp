@@ -26,6 +26,7 @@ public class DetalleVenta {
     @Column(nullable = false)
     private Double subtotal;
 
+    // Vinculación relacional de llaves foráneas para mantener la integridad de los subtotales
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "venta_id", nullable = false)
     private Venta venta;
