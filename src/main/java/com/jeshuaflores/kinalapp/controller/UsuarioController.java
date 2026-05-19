@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 // CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: USUARIOS
 // ===================================================================
 @Controller
+// Endpoints administrativos para la creación y listado de usuarios
 @RequestMapping("/usuarios")
 public class UsuarioController {
 
