@@ -14,6 +14,9 @@ import org.springframework.validation.BindingResult;
 
 import org.springframework.web.bind.annotation.*;
 
+// ===================================================================
+// CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: PRODUCTOS
+// ===================================================================
 @Controller
 @RequestMapping("/productos")
 public class ProductoController {
