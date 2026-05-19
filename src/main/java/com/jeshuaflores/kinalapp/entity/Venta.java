@@ -27,7 +27,7 @@ public class Venta {
 
     @Column(nullable = false)
     private Double total;
-
+    // Relación estructural Many-To-One: Asociación de la transacción con el cliente emisor
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "cliente_id", nullable = false)
     private Cliente cliente;
