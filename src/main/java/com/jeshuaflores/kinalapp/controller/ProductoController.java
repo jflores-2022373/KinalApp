@@ -27,6 +27,7 @@ public class ProductoController {
     // =========================
     // LISTAR PRODUCTOS
     // =========================
+    // Mapeo de solicitudes HTTP para el catálogo de productos comerciales
     @GetMapping
     public String listar(Model model) {
 
