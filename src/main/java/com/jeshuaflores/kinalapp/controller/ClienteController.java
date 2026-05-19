@@ -13,7 +13,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 
 import org.springframework.web.bind.annotation.*;
-
+// Módulo de control de tráfico para la gestión de clientes en el sistema
 // CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: CLIENTES
 @Controller
 @RequestMapping("/clientes")
