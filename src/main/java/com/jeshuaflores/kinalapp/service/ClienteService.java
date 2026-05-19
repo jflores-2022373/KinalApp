@@ -21,6 +21,8 @@ public class ClienteService {
     // =========================
     // LISTAR CLIENTES
     // =========================
+
+    // Implementación de métodos abstractos delegados para el control de flujo de clientes
     public List<Cliente> listar() {
 
         // Se modificó para ordenar por el campo 'id' de forma Descendente (DESC)
