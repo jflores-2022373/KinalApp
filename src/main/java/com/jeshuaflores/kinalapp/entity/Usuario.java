@@ -38,6 +38,7 @@ public class Usuario {
     @Column(nullable = false)
     private String password;
 
+    // Propiedad de autorización de seguridad para el control de accesos basados en roles (RBAC)
     @Column(nullable = false, length = 50)
     private String rol;
 
