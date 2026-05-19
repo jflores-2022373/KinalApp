@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+// Controlador para el manejo de la página de inicio y dashboard principal
 @Controller
 public class HomeController {
 
