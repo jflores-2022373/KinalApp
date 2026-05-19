@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.*;
 // CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: VENTAS
 // ===================================================================
 @Controller
+// Mapeo transaccional para el flujo de facturación y registros de ventas
 @RequestMapping("/ventas")
 public class VentaController {
 
