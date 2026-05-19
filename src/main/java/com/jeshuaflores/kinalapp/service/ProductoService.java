@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+// ===================================================================
+// CAPA DE NEGOCIO: LOGÍSTICA DE STOCK Y PRECIOS DE PRODUCTOS
+// ===================================================================
 @Service
 public class ProductoService {
 
