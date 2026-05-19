@@ -15,7 +15,7 @@ import lombok.*;
 @ToString
 
 public class Cliente {
-
+    // Atributos operacionales del perfil de cliente y validaciones de persistencia
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
