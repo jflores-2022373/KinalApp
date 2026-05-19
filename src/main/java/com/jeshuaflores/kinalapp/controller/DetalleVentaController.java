@@ -11,7 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
 import org.springframework.web.bind.annotation.*;
-
+// ===================================================================
+// CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: DETALLE VENTAS
+// ===================================================================
 @Controller
 @RequestMapping("/detalleventas")
 public class DetalleVentaController {
