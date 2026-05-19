@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+// ===================================================================
+// CAPA DE NEGOCIO: ADMINISTRACIÓN Y CIFRADO DE USUARIOS DEL SISTEMA
+// ===================================================================
 @Service
 public class UsuarioService {
 
