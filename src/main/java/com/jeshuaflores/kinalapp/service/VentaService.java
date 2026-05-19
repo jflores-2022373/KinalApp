@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+// ===================================================================
+// CAPA DE NEGOCIO: ORQUESTADOR PRINCIPAL TRANSACCIONAL DE VENTAS
+// ===================================================================
 @Service
 public class VentaService {
 
