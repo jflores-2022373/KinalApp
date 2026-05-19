@@ -14,6 +14,7 @@ import org.springframework.validation.BindingResult;
 
 import org.springframework.web.bind.annotation.*;
 
+// CONTROLADOR DE ARQUITECTURA MVC - SEGMENTO: CLIENTES
 @Controller
 @RequestMapping("/clientes")
 public class ClienteController {
