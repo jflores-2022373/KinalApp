@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class KinalappApplication {
 
+	// ===================================================================
+	// METODO DE INICIALIZACION Y CONTEXTO DE APLICACION
+	// ===================================================================
 	public static void main(String[] args) {
 		SpringApplication.run(KinalappApplication.class, args);
 	}
