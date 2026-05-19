@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
+// Repositorio de consultas de seguridad y búsqueda de usuarios en la base de datos
 public interface UsuarioRepository
         extends JpaRepository<Usuario, Long> {
 
