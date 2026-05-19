@@ -19,7 +19,7 @@ import java.time.LocalDate;
 @ToString
 
 public class Producto {
-
+    // Atributos de inventario: identificación, stock y especificaciones de costos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
