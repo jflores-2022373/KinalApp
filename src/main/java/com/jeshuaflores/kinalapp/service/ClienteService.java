@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+// ===================================================================
+// CAPA DE NEGOCIO: GESTIÓN ESPECÍFICA DE OPERACIONES DE CLIENTES
+// ===================================================================
 @Service
 public class ClienteService {
 
